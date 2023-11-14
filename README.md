@@ -48,3 +48,4 @@ Our database project's main goal is to create an effective E-commerce database b
 - The quantity attribute was not initially intended to be mapped to the Add_to_Cart relationship, rather it was inclusive as part of the cart. Otherwise a new entity is required to capture all the items and their quantities and that entity should be related to the order entity.
 - To separate the order entity from transaction entity - the rational behind this design is actually an assumption that a transaction might fail for a particular order due to eccentric reasons and the customer is expected to retry another transaction to successfully place the order leading to a M:N cardinal relationship.
 - Restricting the scope of the project to focus on the key elements of the course over a generalized broader choice of project topic.
+
