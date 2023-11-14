@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T03:42:53.602Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="yjfY_rw1yoO5Lh2UBU6n" version="22.1.0" type="device" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-11-14T05:04:14.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Drk5zbOmaR9uv218ZVXr" version="22.1.0" type="device" pages="10">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="customer">
     <mxGraphModel dx="1195" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1092,7 +1092,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ER-min_max" id="BTLLP-vgOGDXITOacLkn">
-    <mxGraphModel dx="1195" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="DzJWgeE1doei_HLTiADY-0" />
         <mxCell id="DzJWgeE1doei_HLTiADY-1" parent="DzJWgeE1doei_HLTiADY-0" />
