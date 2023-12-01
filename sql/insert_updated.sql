@@ -1,6 +1,6 @@
 INSERT INTO CUSTOMER (customerId, firstName, middleName, lastName, gender, email, password, dateOfBirth, street, state, country, city, zip) VALUES
 (1, 'Emma', 'Davis', 'Wilson', 'female', 'emma.wilson@example.com', 'emma123', '1992-09-14', '789 Pine St', 'FL', 'USA', 'Beach City', '98765'),
-(2, 'Elena', 'Harris', 'Taylor', 'female', 'elena.harrison@gmail.com', 'elena678', '1992-09-15', '790 Pine St', 'FL', 'USA', 'Beach City', '98765'),
+(2, 'Elena', 'Harris', 'Taylor', 'female', 'elena.harrison@gmail.com', 'elena678', '1992-09-15', '790 Pine St', 'FL', 'USA', 'Beach City', '67890'),
 (3, 'Selena', 'Anderson', 'Young', 'female', 'selena.anderson@gmail.com', 'selena234', '1992-04-14', '791 Pine St', 'FL', 'USA', 'Beach City', '98765'),
 (4, 'Alice', 'Johnson', 'Brown', 'female', 'alice.brown@example.com', 'alicepass', '1992-04-12', '234 Maple St', 'FL', 'USA', 'Beach City', '34567'),
 (5, 'Charlie', 'Miller', 'Jones', 'male', 'charlie.jones@example.com', 'charliepass', '1988-07-25', '567 Pine St', 'TX', 'USA', 'Hometown', '45678'),
