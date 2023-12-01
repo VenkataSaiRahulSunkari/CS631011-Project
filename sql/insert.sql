@@ -11,7 +11,7 @@ INSERT INTO CUSTOMER VALUES
 (12, 'Olivia', 'Harris', 'Smith', 'female', 'olivia.smith@example.com', 'oliviapass', '1996-04-02', 26, '890 Cedar St', 'NY', 'USA', 'Meadowville', 34567),
 (13, 'James', 'Anderson', 'Wright', 'male', 'james.wright@example.com', 'jamespass', '1989-10-19', 33, '123 Elm St', 'CA', 'USA', 'Seaside', 45678),
 (14, 'Mia', 'Thompson', 'Allen', 'female', 'mia.allen@example.com', 'miapass', '1991-01-08', 31, '456 Maple St', 'TX', 'USA', 'Valley Town', 56789),
-(15, 'Nathan', 'Miller', 'Brown', 'male', 'nathan.brown@example.com', 'nathanpass', '1987-05-22', 35, '678 Oak St', 'NY', 'USA', 'Lakewood', 67890);
+(15, 'Nathan', 'Miller', 'Brown', 'male', 'nathan.brown@example.com', 'nathanpass', '1987-05-22', 35, '678 Oak St', 'NY', 'USA', 'Lakewood', 67890),
 (16, 'Sophia', 'Brown', 'Clark', 'female', 'sophia.clark@example.com', 'sophiapass', '1994-02-25', 28, '345 Cedar St', 'TX', 'USA', 'Springfield', 23456),
 (17, 'Daniel', 'Jones', 'Moore', 'male', 'daniel.moore@example.com', 'danielpass', '1981-07-10', 41, '456 Elm St', 'CA', 'USA', 'Green City', 34567),
 (18, 'Emily', 'White', 'Hill', 'female', 'emily.hill@example.com', 'emilypass', '1997-09-15', 25, '567 Pine St', 'NY', 'USA', 'Oceanview', 45678),
