@@ -12,6 +12,16 @@ INSERT INTO CUSTOMER VALUES
 (13, 'James', 'Anderson', 'Wright', 'male', 'james.wright@example.com', 'jamespass', '1989-10-19', 33, '123 Elm St', 'CA', 'USA', 'Seaside', 45678),
 (14, 'Mia', 'Thompson', 'Allen', 'female', 'mia.allen@example.com', 'miapass', '1991-01-08', 31, '456 Maple St', 'TX', 'USA', 'Valley Town', 56789),
 (15, 'Nathan', 'Miller', 'Brown', 'male', 'nathan.brown@example.com', 'nathanpass', '1987-05-22', 35, '678 Oak St', 'NY', 'USA', 'Lakewood', 67890);
+(16, 'Sophia', 'Brown', 'Clark', 'female', 'sophia.clark@example.com', 'sophiapass', '1994-02-25', 28, '345 Cedar St', 'TX', 'USA', 'Springfield', 23456),
+(17, 'Daniel', 'Jones', 'Moore', 'male', 'daniel.moore@example.com', 'danielpass', '1981-07-10', 41, '456 Elm St', 'CA', 'USA', 'Green City', 34567),
+(18, 'Emily', 'White', 'Hill', 'female', 'emily.hill@example.com', 'emilypass', '1997-09-15', 25, '567 Pine St', 'NY', 'USA', 'Oceanview', 45678),
+(19, 'Joseph', 'Lee', 'Carter', 'male', 'joseph.carter@example.com', 'josephpass', '1984-04-18', 38, '678 Oak St', 'FL', 'USA', 'Sunset City', 56789),
+(20, 'Ava', 'Anderson', 'Young', 'female', 'ava.young@example.com', 'avapass', '1990-11-22', 32, '789 Maple St', 'CA', 'USA', 'Harbor City', 67890),
+(21, 'Benjamin', 'Wilson', 'Evans', 'male', 'benjamin.evans@example.com', 'benjaminpass', '1983-03-28', 39, '890 Cedar St', 'NY', 'USA', 'Meadowville', 78901),
+(22, 'Mia', 'Thompson', 'Lopez', 'female', 'mia.lopez@example.com', 'miapass', '1996-01-02', 26, '123 Birch St', 'TX', 'USA', 'Valley Town', 89012),
+(23, 'Samuel', 'Harris', 'Adams', 'male', 'samuel.adams@example.com', 'samuelpass', '1989-08-19', 33, '234 Pine St', 'CA', 'USA', 'Lakewood', 90123),
+(24, 'Scarlett', 'Martin', 'Wright', 'female', 'scarlett.wright@example.com', 'scarlettpass', '1991-12-30', 31, '345 Oak St', 'FL', 'USA', 'Sunnydale', 12345),
+(25, 'David', 'Clark', 'Taylor', 'male', 'david.taylor@example.com', 'davidpass', '1987-05-10', 35, '456 Maple St', 'NY', 'USA', 'Mountain View', 54321);
 
 -- Inserting data into CUSTOMER_PHONE table
 INSERT INTO CUSTOMER_PHONE VALUES
@@ -26,7 +36,18 @@ INSERT INTO CUSTOMER_PHONE VALUES
 (12, '5551098765'),
 (13, '5550987654'),
 (14, '5559876543'),
-(15, '5558765432');
+(15, '5558765432'),
+(16, '5552345678'),
+(17, '5553456789'),
+(18, '5554567890'),
+(19, '5555678901'),
+(20, '5556789012'),
+(21, '5557890123'),
+(22, '5558901234'),
+(23, '5559012345'),
+(24, '5550123456'),
+(25, '5551234567');
+
 
 -- Inserting data into PRODUCT table
 INSERT INTO PRODUCT VALUES
@@ -41,7 +62,17 @@ INSERT INTO PRODUCT VALUES
 (12, 'Backpack', 29.99, 'Fashion', 'Stylish and spacious backpack for daily use', 50),
 (13, 'Desk Lamp', 19.99, 'Home', 'LED desk lamp for bright and energy-efficient lighting', 30),
 (14, 'Sunglasses', 49.99, 'Fashion', 'Trendy sunglasses for a cool and stylish look', 50),
-(15, 'External Hard Drive', 129.99, 'Computers', 'High-capacity external hard drive for data storage', 20);
+(15, 'External Hard Drive', 129.99, 'Computers', 'High-capacity external hard drive for data storage', 20),
+(16, 'Wireless Earbuds', 79.99, 'Audio', 'Bluetooth earbuds for seamless audio experience', 50),
+(17, 'Smart Thermostat', 129.99, 'Home', 'Energy-efficient smart thermostat for home automation', 30),
+(18, 'Digital Camera', 349.99, 'Electronics', 'Professional digital camera with advanced features', 15),
+(19, 'Power Bank', 39.99, 'Electronics', 'Portable power bank for charging devices on the go', 100),
+(20, 'Electric Kettle', 29.99, 'Appliances', 'Fast-boiling electric kettle for quick hot water', 40),
+(21, 'Wireless Mouse', 19.99, 'Computers', 'Wireless mouse for comfortable and convenient computing', 50),
+(22, 'Desk Organizer', 14.99, 'Office', 'Organizer for keeping desk essentials in order', 60),
+(23, 'Sleep Mask', 9.99, 'Health', 'Comfortable sleep mask for a good night's rest', 100),
+(24, 'Travel Pillow', 24.99, 'Travel', 'Memory foam travel pillow for neck support during journeys', 30),
+(25, 'Bluetooth Keyboard', 49.99, 'Computers', 'Wireless Bluetooth keyboard for efficient typing', 20);
 
 -- Inserting data into ORDERS table
 INSERT INTO ORDERS VALUES
@@ -56,7 +87,17 @@ INSERT INTO ORDERS VALUES
 (112, 'Delivered', '2023-12-15 15:15:00', 49.99, '2023-12-20 14:30:00'),
 (113, 'Processing', '2024-01-08 10:00:00', 129.99, '2024-01-15 15:30:00'),
 (114, 'Shipped', '2024-02-02 11:45:00', 299.99, '2024-02-08 17:00:00'),
-(115, 'Delivered', '2024-03-20 14:30:00', 149.99, '2024-03-25 16:45:00');
+(115, 'Delivered', '2024-03-20 14:30:00', 149.99, '2024-03-25 16:45:00'),
+(116, 'Processing', '2024-04-08 09:45:00', 199.99, '2024-04-15 15:00:00'),
+(117, 'Shipped', '2024-05-02 11:30:00', 79.99, '2024-05-08 17:45:00'),
+(118, 'Delivered', '2024-06-20 13:15:00', 349.99, '2024-06-25 14:30:00'),
+(119, 'Processing', '2024-07-10 10:30:00', 29.99, '2024-07-15 16:00:00'),
+(120, 'Shipped', '2024-08-05 12:15:00', 19.99, '2024-08-10 18:30:00'),
+(121, 'Delivered', '2024-09-18 14:00:00', 24.99, '2024-09-25 15:15:00'),
+(122, 'Processing', '2024-10-10 11:45:00', 49.99, '2024-10-15 17:00:00'),
+(123, 'Shipped', '2024-11-02 13:30:00', 129.99, '2024-11-08 16:45:00'),
+(124, 'Delivered', '2024-12-15 15:15:00', 19.99, '2024-12-20 14:30:00'),
+(125, 'Processing', '2025-01-08 10:00:00', 89.99, '2025-01-15 15:30:00');
 
 -- Inserting data into TRANSACTION table
 INSERT INTO TRANSACTION VALUES
@@ -71,7 +112,17 @@ INSERT INTO TRANSACTION VALUES
 (12, false, '2023-12-15 16:00:00', 1),
 (13, true, '2024-01-08 11:00:00', 2),
 (14, true, '2024-02-02 13:00:00', 3),
-(15, false, '2024-03-20 15:00:00', 4);
+(15, false, '2024-03-20 15:00:00', 4),
+(16, true, '2024-04-08 10:00:00', 16),
+(17, false, '2024-05-02 12:00:00', 17),
+(18, true, '2024-06-20 14:00:00', 18),
+(19, true, '2024-07-10 11:00:00', 19),
+(20, false, '2024-08-05 13:00:00', 20),
+(21, true, '2024-09-18 15:00:00', 21),
+(22, true, '2024-10-10 12:00:00', 22),
+(23, false, '2024-11-02 14:00:00', 23),
+(24, true, '2024-12-15 16:00:00', 24),
+(25, true, '2025-01-08 11:00:00', 25);
 
 -- Inserting data into TRANSACTION_MODE table
 INSERT INTO TRANSACTION_MODE VALUES
@@ -86,7 +137,17 @@ INSERT INTO TRANSACTION_MODE VALUES
 (12, 'Square'),
 (13, 'Amazon Pay'),
 (14, 'Chase Pay'),
-(15, 'Samsung Pay');
+(15, 'Samsung Pay'),
+(16, 'Credit Card'),
+(17, 'PayPal'),
+(18, 'Bitcoin'),
+(19, 'Ethereum'),
+(20, 'Litecoin'),
+(21, 'Cash'),
+(22, 'Check'),
+(23, 'Money Order'),
+(24, 'Zelle'),
+(25, 'Western Union');
 
 -- Inserting data into CUSTOMER_SUPPORT table
 INSERT INTO CUSTOMER_SUPPORT VALUES
@@ -101,10 +162,35 @@ INSERT INTO CUSTOMER_SUPPORT VALUES
 (12, 5, 'Highly recommended'),
 (13, 2, 'Average support'),
 (14, 4, 'Responsive team'),
-(15, 5, 'Top-notch service');
+(15, 5, 'Top-notch service'),
+(16, 4, 'Responsive support'),
+(17, 3, 'Fair assistance'),
+(18, 5, 'Exceptional service'),
+(19, 2, 'Needs improvement'),
+(20, 4, 'Impressive help'),
+(21, 1, 'Outstanding support'),
+(22, 4, 'Good response'),
+(23, 3, 'Average service'),
+(24, 5, 'Highly recommended'),
+(25, 2, 'Satisfactory support');
 
 -- Inserting data into CART table
 INSERT INTO CART (cartTotal) VALUES (0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
 (0),
 (0),
 (0),
@@ -122,48 +208,88 @@ INSERT INTO CART (cartTotal) VALUES (0),
 
 -- Inserting data into ADD_TO_CART table
 INSERT INTO ADD_TO_CART VALUES
-(4, 4, 1, 2),
-(5, 5, 1, 1),
-(6, 6, 2, 3),
-(7, 7, 2, 1),
-(8, 8, 3, 2),
-(9, 9, 3, 1),
-(10, 10, 4, 2),
-(11, 11, 4, 1),
-(12, 12, 5, 3),
-(13, 13, 5, 1),
-(14, 14, 6, 2),
-(15, 15, 6, 1);
+(26, 26, 1, 2),
+(27, 27, 1, 1),
+(28, 28, 2, 3),
+(29, 29, 2, 1),
+(30, 30, 3, 2),
+(31, 31, 3, 1),
+(32, 32, 4, 2),
+(33, 33, 4, 1),
+(34, 34, 5, 3),
+(35, 35, 5, 1),
+(36, 36, 6, 2),
+(37, 37, 6, 1),
+(38, 38, 7, 2),
+(39, 39, 7, 1),
+(40, 40, 8, 3),
+(41, 41, 8, 1),
+(42, 42, 9, 2),
+(43, 43, 9, 1),
+(44, 44, 10, 3),
+(45, 45, 10, 1),
+(46, 46, 11, 2),
+(47, 47, 11, 1),
+(48, 48, 12, 2),
+(49, 49, 12, 1),
+(50, 50, 13, 3);
+
 
 -- Inserting data into RAISE_TICKET table
 INSERT INTO RAISE_TICKET VALUES
-(4, 7),
-(5, 8),
-(6, 9),
-(7, 10),
-(8, 11),
-(9, 12),
-(10, 13),
-(11, 14),
-(12, 15),
-(13, 4),
-(14, 5),
-(15, 6);
+(26, 26),
+(27, 27),
+(28, 28),
+(29, 29),
+(30, 30),
+(31, 31),
+(32, 32),
+(33, 33),
+(34, 34),
+(35, 35),
+(36, 36),
+(37, 37),
+(38, 38),
+(39, 39),
+(40, 40),
+(41, 41),
+(42, 42),
+(43, 43),
+(44, 44),
+(45, 45),
+(46, 46),
+(47, 47),
+(48, 48),
+(49, 49),
+(50, 50);
 
 -- Inserting data into TICKET_DETAILS table
 INSERT INTO TICKET_DETAILS VALUES
-(4, 'Defective product', 'Technical'),
-(5, 'Late delivery', 'Logistics'),
-(6, 'Missing item', 'Order'),
-(7, 'Poor customer service', 'Service'),
-(8, 'Product refund', 'Financial'),
-(9, 'Damaged package', 'Logistics'),
-(10, 'Billing issue', 'Financial'),
-(11, 'Incorrect product', 'Order'),
-(12, 'Website usability', 'Technical'),
-(13, 'Exchange request', 'Order'),
-(14, 'Quality assurance', 'Product'),
-(15, 'Return process', 'Order');
+(26, 'Defective product', 'Technical'),
+(27, 'Late delivery', 'Logistics'),
+(28, 'Missing item', 'Order'),
+(29, 'Poor customer service', 'Service'),
+(30, 'Product refund', 'Financial'),
+(31, 'Damaged package', 'Logistics'),
+(32, 'Billing issue', 'Financial'),
+(33, 'Incorrect product', 'Order'),
+(34, 'Website usability', 'Technical'),
+(35, 'Exchange request', 'Order'),
+(36, 'Defective product', 'Technical'),
+(37, 'Late delivery', 'Logistics'),
+(38, 'Missing item', 'Order'),
+(39, 'Poor customer service', 'Service'),
+(40, 'Product refund', 'Financial'),
+(41, 'Damaged package', 'Logistics'),
+(42, 'Billing issue', 'Financial'),
+(43, 'Incorrect product', 'Order'),
+(44, 'Website usability', 'Technical'),
+(45, 'Exchange request', 'Order'),
+(46, 'Defective product', 'Technical'),
+(47, 'Late delivery', 'Logistics'),
+(48, 'Missing item', 'Order'),
+(49, 'Poor customer service', 'Service'),
+(50, 'Product refund', 'Financial');
 
 -- Inserting data into TRANSACTION_FOR_ORDER table
 INSERT INTO TRANSACTION_FOR_ORDER VALUES
@@ -178,7 +304,33 @@ INSERT INTO TRANSACTION_FOR_ORDER VALUES
 (112, 12),
 (113, 13),
 (114, 14),
-(115, 15);
+(115, 15),
+(126, 26),
+(127, 27),
+(128, 28),
+(129, 29),
+(130, 30),
+(131, 31),
+(132, 32),
+(133, 33),
+(134, 34),
+(135, 35),
+(136, 36),
+(137, 37),
+(138, 38),
+(139, 39),
+(140, 40),
+(141, 41),
+(142, 42),
+(143, 43),
+(144, 44),
+(145, 45),
+(146, 46),
+(147, 47),
+(148, 48),
+(149, 49),
+(150, 50);
+
 
 -- Inserting data into PAYMENT_FOR_TRANSACTION table
 INSERT INTO PAYMENT_FOR_TRANSACTION VALUES
@@ -193,19 +345,57 @@ INSERT INTO PAYMENT_FOR_TRANSACTION VALUES
 (12, 12),
 (13, 13),
 (14, 14),
-(15, 15);
+(15, 15),
+(26, 26),
+(27, 27),
+(28, 28),
+(29, 29),
+(30, 30),
+(31, 31),
+(32, 32),
+(33, 33),
+(34, 34),
+(35, 35),
+(36, 36),
+(37, 37),
+(38, 38),
+(39, 39),
+(40, 40),
+(41, 41),
+(42, 42),
+(43, 43),
+(44, 44),
+(45, 45),
+(46, 46),
+(47, 47),
+(48, 48),
+(49, 49),
+(50, 50);
 
 -- Inserting data into CHECKOUT table
 INSERT INTO CHECKOUT VALUES
-(1, 104),
-(1, 105),
-(2, 106),
-(2, 107),
-(3, 108),
-(3, 109),
-(4, 110),
-(4, 111),
-(5, 112),
-(5, 113),
-(6, 114),
-(6, 115);
+(14, 126),
+(15, 127),
+(16, 128),
+(17, 129),
+(18, 130),
+(19, 131),
+(20, 132),
+(21, 133),
+(22, 134),
+(23, 135),
+(24, 136),
+(25, 137),
+(26, 138),
+(27, 139),
+(28, 140),
+(29, 141),
+(30, 142),
+(31, 143),
+(32, 144),
+(33, 145),
+(34, 146),
+(35, 147),
+(36, 148),
+(37, 149),
+(38, 150);
