@@ -1,6 +1,6 @@
 -- Inserting data into CUSTOMER table
 INSERT INTO CUSTOMER VALUES
-(4, 'Alice', 'Johnson', 'Brown', 'female', 'alice.brown@example.com', 'alicepass', '1992-04-12', 30, '234 Maple St', 'FL', 'USA', 'Beach City', 34567),
+(4, 'Alice', 'Johnson', 'Brown', 'female', 'alice.brown@example.com', 'alicepass', '1992-04-12', 31, '234 Maple St', 'FL', 'USA', 'Beach City', 34567),
 (5, 'Charlie', 'Miller', 'Jones', 'male', 'charlie.jones@example.com', 'charliepass', '1988-07-25', 34, '567 Pine St', 'TX', 'USA', 'Hometown', 45678),
 (6, 'Eva', 'Taylor', 'Green', 'female', 'eva.green@example.com', 'evapass', '1995-11-18', 27, '789 Oak St', 'CA', 'USA', 'Sunnydale', 56789),
 (7, 'David', 'Williams', 'Clark', 'male', 'david.clark@example.com', 'davidpass', '1980-02-03', 42, '890 Cedar St', 'NY', 'USA', 'Metropolis', 67890),
@@ -70,7 +70,7 @@ INSERT INTO PRODUCT VALUES
 (20, 'Electric Kettle', 29.99, 'Appliances', 'Fast-boiling electric kettle for quick hot water', 40),
 (21, 'Wireless Mouse', 19.99, 'Computers', 'Wireless mouse for comfortable and convenient computing', 50),
 (22, 'Desk Organizer', 14.99, 'Office', 'Organizer for keeping desk essentials in order', 60),
-(23, 'Sleep Mask', 9.99, 'Health', 'Comfortable sleep mask for a good night's rest', 100),
+(23, 'Sleep Mask', 9.99, 'Health', "Comfortable sleep mask for a good night's rest", 100),
 (24, 'Travel Pillow', 24.99, 'Travel', 'Memory foam travel pillow for neck support during journeys', 30),
 (25, 'Bluetooth Keyboard', 49.99, 'Computers', 'Wireless Bluetooth keyboard for efficient typing', 20);
 
@@ -208,31 +208,31 @@ INSERT INTO CART (cartTotal) VALUES (0),
 
 -- Inserting data into ADD_TO_CART table
 INSERT INTO ADD_TO_CART VALUES
-(26, 26, 1, 2),
-(27, 27, 1, 1),
-(28, 28, 2, 3),
-(29, 29, 2, 1),
-(30, 30, 3, 2),
-(31, 31, 3, 1),
-(32, 32, 4, 2),
-(33, 33, 4, 1),
-(34, 34, 5, 3),
-(35, 35, 5, 1),
-(36, 36, 6, 2),
-(37, 37, 6, 1),
-(38, 38, 7, 2),
-(39, 39, 7, 1),
-(40, 40, 8, 3),
-(41, 41, 8, 1),
-(42, 42, 9, 2),
-(43, 43, 9, 1),
-(44, 44, 10, 3),
-(45, 45, 10, 1),
-(46, 46, 11, 2),
-(47, 47, 11, 1),
-(48, 48, 12, 2),
-(49, 49, 12, 1),
-(50, 50, 13, 3);
+(4,  25, 25, 2),
+(5,  24, 25, 1),
+(6,  23, 20, 3),
+(7,  4, 20, 1),
+(8,  5, 23, 2),
+(9,  6, 23, 1),
+(10, 7, 4, 2),
+(11, 8, 4, 1),
+(12, 9, 5, 3),
+(13, 10, 5, 1),
+(14, 11, 6, 2),
+(15, 12, 6, 1),
+(16, 13, 7, 2),
+(17, 14, 7, 1),
+(18, 15, 8, 3),
+(19, 16, 8, 1),
+(20, 17, 9, 2),
+(21, 18, 9, 1),
+(22, 19, 10, 3),
+(23, 20, 10, 1),
+(24, 21, 11, 2),
+(25, 21, 11, 1),
+(12, 21, 12, 2),
+(23, 20, 12, 1),
+(7,  23, 13, 3);
 
 
 -- Inserting data into RAISE_TICKET table
