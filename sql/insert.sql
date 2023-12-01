@@ -1,95 +1,211 @@
+-- Inserting data into CUSTOMER table
+INSERT INTO CUSTOMER VALUES
+(4, 'Alice', 'Johnson', 'Brown', 'female', 'alice.brown@example.com', 'alicepass', '1992-04-12', 30, '234 Maple St', 'FL', 'USA', 'Beach City', 34567),
+(5, 'Charlie', 'Miller', 'Jones', 'male', 'charlie.jones@example.com', 'charliepass', '1988-07-25', 34, '567 Pine St', 'TX', 'USA', 'Hometown', 45678),
+(6, 'Eva', 'Taylor', 'Green', 'female', 'eva.green@example.com', 'evapass', '1995-11-18', 27, '789 Oak St', 'CA', 'USA', 'Sunnydale', 56789),
+(7, 'David', 'Williams', 'Clark', 'male', 'david.clark@example.com', 'davidpass', '1980-02-03', 42, '890 Cedar St', 'NY', 'USA', 'Metropolis', 67890),
+(8, 'Grace', 'Moore', 'Taylor', 'female', 'grace.taylor@example.com', 'gracepass', '1998-09-09', 24, '123 Elm St', 'CA', 'USA', 'Harbor City', 78901),
+(9, 'Frank', 'Wilson', 'Young', 'male', 'frank.young@example.com', 'frankpass', '1983-06-14', 39, '456 Birch St', 'TX', 'USA', 'Riverside', 89012),
+(10, 'Helen', 'Martin', 'Adams', 'female', 'helen.adams@example.com', 'helenpass', '1993-12-30', 28, '678 Pine St', 'NY', 'USA', 'Mountain View', 90123),
+(11, 'Ivan', 'Jackson', 'Lee', 'male', 'ivan.lee@example.com', 'ivanpass', '1986-08-28', 36, '789 Oak St', 'CA', 'USA', 'Sunset City', 23456),
+(12, 'Olivia', 'Harris', 'Smith', 'female', 'olivia.smith@example.com', 'oliviapass', '1996-04-02', 26, '890 Cedar St', 'NY', 'USA', 'Meadowville', 34567),
+(13, 'James', 'Anderson', 'Wright', 'male', 'james.wright@example.com', 'jamespass', '1989-10-19', 33, '123 Elm St', 'CA', 'USA', 'Seaside', 45678),
+(14, 'Mia', 'Thompson', 'Allen', 'female', 'mia.allen@example.com', 'miapass', '1991-01-08', 31, '456 Maple St', 'TX', 'USA', 'Valley Town', 56789),
+(15, 'Nathan', 'Miller', 'Brown', 'male', 'nathan.brown@example.com', 'nathanpass', '1987-05-22', 35, '678 Oak St', 'NY', 'USA', 'Lakewood', 67890);
 
-INSERT INTO ORDERS
-VALUES
-( 1001,"Processing", '2023-01-15 10:23:45',  78.50 , '2023-01-20 14:30:00'  ),
-( 1002,"Shipped", '2023-02-02 15:45:12', 112.20 , '2023-02-08 11:10:00' ),
-( 1003,"Delivered", '2023-03-10 09:12:30 ', 45.99 ,'2023-03-15 16:45:00' ),
-( 1004,"Processing",'2023-04-05 14:20:00', 32.75, ' 2023-02-05 11:18:00' ),
-( 1005,"Canceled", '2023-04-18 08:30:22', 90.00, ' 2023-02-08 11:10:00' ),
-( 1006 ,"Shipped", '2023-05-02 11:55:10', 67.80, '2023-05-08 09:40:00'  ),
-( 1007,"Delivered", '2023-06-20 16:10:45', 120.45 , '2023-06-25 12:15:00'  ),
-( 1008 ,"Processing", '2023-07-07 13:42:18 ', 25.30  , ' 2023-02-08 12:10:00' ),
-( 1009,"Shipped", '2023-08-15 09:30:00', 54.99, '2023-08-20 15:20:00' ),
-( 1010,"Delivered",'2023-09-02 17:18:05', 78.90, '2023-09-07 10:55:00'),
-( 1011,"Processing", '2023-10-10 10:00:30', 42.25 , ' 2023-02-08 17:18:00'),
-( 1012 ,"Shipped", '2023-11-05 14:48:55', 96.70 , '2023-11-10 11:30:00'  ),
-( 1013,"Delivered", '2023-12-12 08:15:40 ', 35.50  , '2023-12-18 16:00:00'  ),
-( 1014 ,"Canceled", '2024-01-20 12:33:12 ', 110.00 , ' 2023-02-08 21:10:00'  ),
-( 1015,"Processing", '2024-02-08 15:10:00 ',62.99      ,' 2023-02-08 14:10:00 '  ),
-( 1016,"Shipped", '2024-03-05 09:40:22' , 84.20 , '2024-03-11 14:45:00'  ),
-( 1017 ,"Delivered ",'2024-04-18 11:25:55' ,49.75   ,'2024-04-24 08:30:00'  ),
-( 1018 ,"Processing", '2024-05-02 14:20:30' , 75.60  , ' 2023-02-08 15:43:00' ),
-( 1019  ,"Shipped", '2024-06-10 16:45:00 ', 28.99 , '2024-06-15 09:12:00'  ),
-( 1020 ,"Delivered",'2024-07-07 10:22:18' , 63.45 , '2024-07-12 13:55:00' );
+-- Inserting data into CUSTOMER_PHONE table
+INSERT INTO CUSTOMER_PHONE VALUES
+(4, '5559876543'),
+(5, '5558765432'),
+(6, '5557654321'),
+(7, '5556543210'),
+(8, '5555432109'),
+(9, '5554321098'),
+(10, '5553210987'),
+(11, '5552109876'),
+(12, '5551098765'),
+(13, '5550987654'),
+(14, '5559876543'),
+(15, '5558765432');
 
-INSERT INTO TRANSACTIONS
-VALUES
-( 2001 ,"Success", '2023-01-15 10:25:30' ),
-( 2002 ,"Success", '2023-02-02 15:48:00' ),
-( 2003 ,"Success", '2023-03-10 09:15:20'),
-( 2004 ,"Pending", '2023-04-05 14:25:45'),
-( 2005 ,"Failed", '2023-04-18 08:33:10' ),
-( 2006 ,"Success", '2023-05-02 11:58:22' ),
-( 2007 ,"Success", '2023-06-20 16:12:00' ),
-( 2008 ,"Pending", '2023-07-07 13:45:35' ),
-( 2009,"Success", '2023-08-15 09:32:10' ),
-( 2010," Success", '2023-09-02 17:20:50' ),
-( 2011,"Pending", '2023-10-10 10:05:15'),
-( 2012 ,"Success", '2023-11-05 14:51:40'),
-( 2013 ,"Success", '2023-12-12 08:18:05'),
-( 2014,"Failed", '2024-01-20 12:35:30' ),
-( 2015 ,"Pending", '2024-02-08 15:12:00'),
-( 2016  ,"Success", '2024-03-05 09:45:22' ),
-( 2017 ,"Success", '2024-04-18 11:28:55' ),
-( 2018,"Pending", '2024-05-02 14:23:30'),
-( 2019 ,"Success",'2024-06-10 16:50:00' ),
-( 2020 ,"Success",'2024-07-07 10:25:25' );
+-- Inserting data into PRODUCT table
+INSERT INTO PRODUCT VALUES
+(4, 'Tablet', 299.99, 'Electronics', 'Portable tablet for on-the-go computing', 20),
+(5, 'Smartwatch', 149.99, 'Electronics', 'Fashionable smartwatch with health tracking features', 50),
+(6, 'Camera', 449.99, 'Electronics', 'High-resolution camera for capturing memorable moments', 15),
+(7, 'Gaming Console', 399.99, 'Electronics', 'Latest gaming console for immersive gaming experience', 10),
+(8, 'Fitness Tracker', 79.99, 'Fitness', 'Fitness tracker with heart rate monitoring and activity tracking', 30),
+(9, 'Bluetooth Speaker', 59.99, 'Audio', 'Wireless Bluetooth speaker for music enthusiasts', 25),
+(10, 'Coffee Maker', 89.99, 'Appliances', 'Automatic coffee maker for brewing your favorite beverages', 15),
+(11, 'Electric Toothbrush', 39.99, 'Health', 'Electric toothbrush for effective oral care', 40),
+(12, 'Backpack', 29.99, 'Fashion', 'Stylish and spacious backpack for daily use', 50),
+(13, 'Desk Lamp', 19.99, 'Home', 'LED desk lamp for bright and energy-efficient lighting', 30),
+(14, 'Sunglasses', 49.99, 'Fashion', 'Trendy sunglasses for a cool and stylish look', 50),
+(15, 'External Hard Drive', 129.99, 'Computers', 'High-capacity external hard drive for data storage', 20);
 
-INSERT INTO CUSTOMER_SUPPORT
-VALUES
-( 3001 ,"Product Inquiry","Open","Can you provide more details on the ingredients of the Lavender Soap?"),
-( 3002,"Order Issue","Closed","My order (Order Id: 1002) hasn't arrived yet. Can you please check its status?"),
-( 3003,"Return/Refund Request","Pending","I received the wrong item in my order (Order Id: 1005). How can I return it for a refund or replacement?"),
-( 3004,"General Inquiry","Open","What is your policy on eco-friendly packaging?"),
-( 3005,"Technical Support","Closed","I'm having trouble completing my purchase. The website keeps showing an error."),
-( 3006,"Product Inquiry","Open","Can you recommend a skincare routine using your Beauty & Skincare products?"),
-( 3007 ,"Order Issue","Closed","I accidentally placed two identical orders (Order Id: 1008 and 1011). Can one be canceled?"),
-( 3008 ,"Return/Refund Request","Resolved","I received a damaged product. Thank you for the prompt replacement!"),
-( 3009,"General Inquiry","Open","How can I subscribe to your newsletter for updates and promotions?"),
-( 3010 ,"Technical Support","Open","I'm having difficulty navigating the website on my mobile device. Can you assist?"),
-( 3011 ,"Product Inquiry","Closed","The Bamboo Fiber Towel Set I ordered (Order Id: 1009) is fantastic! Can you tell me more about its production?"),
-( 3012,"Order Issue","Open","My order (Order Id: 1014) was canceled, but I didn't initiate the cancellation. What happened?"),
-( 3013,"Return/Refund Request","Pending","The Organic Matcha Green Tea (Order Id: 1016) doesn't meet my expectations. Can I return it for a refund?"),
-( 3014,"General Inquiry","Closed","I want to commend your customer service team for their excellent assistance!"),
-( 3015,"Technical Support","Resolved","The technical issue I was facing has been resolved. Thank you!"),
-( 3016 ,"Product Inquiry","Open","Are your packaging materials recyclable?"),
-( 3017,"Order Issue","Closed","My order (Order Id: 1019) arrived earlier than expected. Pleasantly surprised!"),
-( 3018 ,"Return/Refund Request","Resolved","The issue with my order (Order Id: 1020) has been resolved. Thank you for your quick response!"),
-( 3019,"General Inquiry","Open","Do you offer gift wrapping services for special occasions?"),
-( 3020,"Technical Support","Open","I'm having trouble applying a discount code during checkout. Can you help?");
+-- Inserting data into ORDERS table
+INSERT INTO ORDERS VALUES
+(104, 'Processing', '2023-04-08 09:45:00', 799.99, '2023-04-15 15:00:00'),
+(105, 'Shipped', '2023-05-02 11:30:00', 149.99, '2023-05-08 17:45:00'),
+(106, 'Delivered', '2023-06-20 13:15:00', 449.99, '2023-06-25 14:30:00'),
+(107, 'Processing', '2023-07-10 10:30:00', 399.99, '2023-07-15 16:00:00'),
+(108, 'Shipped', '2023-08-05 12:15:00', 59.99, '2023-08-10 18:30:00'),
+(109, 'Delivered', '2023-09-18 14:00:00', 89.99, '2023-09-25 15:15:00'),
+(110, 'Processing', '2023-10-10 11:45:00', 29.99, '2023-10-15 17:00:00'),
+(111, 'Shipped', '2023-11-02 13:30:00', 19.99, '2023-11-08 16:45:00'),
+(112, 'Delivered', '2023-12-15 15:15:00', 49.99, '2023-12-20 14:30:00'),
+(113, 'Processing', '2024-01-08 10:00:00', 129.99, '2024-01-15 15:30:00'),
+(114, 'Shipped', '2024-02-02 11:45:00', 299.99, '2024-02-08 17:00:00'),
+(115, 'Delivered', '2024-03-20 14:30:00', 149.99, '2024-03-25 16:45:00');
 
-INSERT INTO PRODUCT
-VALUES
-( 001,"Organic Lavender Soap",  9.99 ,"Personal Care","Gently cleanse and soothe your skin with our lavender-infused organic soap. Made with natural ingredients"),
-( 002 ,"Bamboo Fiber Towel Set ",24.99 ,"Home & Living","Experience the luxury of our eco-friendly bamboo fiber towels. Soft, absorbent, and perfect for any home"),
-( 003,"Herbal Tea Sampler", 12.49 ,"Food & Beverage","Explore a world of flavors with our herbal tea sampler. Handpicked and blended for a delightful tea experience"),
-( 004,"Eco-Friendly Backpack", 39.99,"Fashion","Stay stylish and environmentally conscious with our eco-friendly backpack. Durable, spacious, and fashion-forward"),
-( 005,"Organic Rosehip Oil", 16.99,"Beauty & Skincare","Nourish your skin with our organic rosehip oil. Packed with vitamins, it promotes hydration and a radiant complexion"),
-( 006,"Recycled Glass Vases",18.95 ,"Home & Living","Add a touch of elegance to your space with our recycled glass vases. Each piece is unique, showcasing eco-friendly design"),
-( 007 ,"Gluten-Free Quinoa Pasta",7.49 ,"Food & Beverage","Enjoy a healthy twist on pasta night with our gluten-free quinoa pasta. A delicious and nutritious alternative"),
-( 008,"Natural Bamboo Toothbrush",4.99 ,"Personal Care","Make your daily routine eco-friendly with our natural bamboo toothbrush. Sustainable and gentle on the environment"),
-( 009,"Organic Cotton Bed Sheets",34.99 ,"Home & Living","Upgrade your sleep experience with our organic cotton bed sheets. Soft, breathable, and kind to both you and the planet"),
-( 010,"Aromatherapy Essential Oils Set", 29.99,"Beauty & Skincare","Create a serene atmosphere with our aromatherapy essential oils set. Perfect for relaxation and stress relief"),
-( 011,"Biodegradable Dish Soap Bar", 5.95 ,"Home & Living","Say goodbye to plastic bottles with our biodegradable dish soap bar. Effectively cleans dishes while being eco-friendly"),
-( 012 ,"Organic Matcha Green Tea", 14.99 ,"Food & Beverage","Experience the vibrant flavor and health benefits of our organic matcha green tea. Perfect for tea enthusiasts"),
-( 013,"Natural Wooden Salad Bowl", 22.49 ,"Home & Living","Serve your salads in style with our natural wooden salad bowl. Crafted from sustainable wood for an eco-conscious choice"),
-( 014,"Vegan Leather Crossbody Bag", 49.95,"Fashion","Elevate your style with our vegan leather crossbody bag. Chic, cruelty-free, and perfect for any occasion"),
-( 015 ,"Himalayan Salt Body Scrub", 19.99 ,"Beauty & Skincare","Reveal smoother, healthier skin with our Himalayan salt body scrub. Exfoliate and rejuvenate with natural minerals"),
-( 016,"Solar-Powered Outdoor Lights", 29.99,"Home & Living","Illuminate your outdoor space with our solar-powered lights. Energy-efficient and a sustainable choice for your garden"),
-( 017 ,"Organic Chia Seeds", 8.99,"Food & Beverage","Boost your nutrition with our organic chia seeds. Packed with omega-3 fatty acids and versatile for various recipes"),
-( 018 ,"Reusable Beeswax Wraps", 14.95,"Home & Living","Ditch single-use plastic wrap with our reusable beeswax wraps. A sustainable and eco-friendly alternative"),
-( 019 ,"Natural Mineral Sunscreen", 16.99 ,"Beauty & Skincare","Protect your skin from the sun with our natural mineral sunscreen. Safe, effective, and gentle on sensitive skin"),
-( 020,"Eco-Friendly Yoga Mat",29.99,"Fitness","Enhance your yoga practice with our eco-friendly yoga mat. Non-toxic, non-slip, and made with sustainability in mind");
+-- Inserting data into TRANSACTION table
+INSERT INTO TRANSACTION VALUES
+(4, true, '2023-04-08 10:00:00', 3),
+(5, true, '2023-05-02 12:00:00', 4),
+(6, false, '2023-06-20 14:00:00', 5),
+(7, true, '2023-07-10 11:00:00', 1),
+(8, true, '2023-08-05 13:00:00', 2),
+(9, false, '2023-09-18 15:00:00', 3),
+(10, true, '2023-10-10 12:00:00', 4),
+(11, true, '2023-11-02 14:00:00', 5),
+(12, false, '2023-12-15 16:00:00', 1),
+(13, true, '2024-01-08 11:00:00', 2),
+(14, true, '2024-02-02 13:00:00', 3),
+(15, false, '2024-03-20 15:00:00', 4);
 
+-- Inserting data into TRANSACTION_MODE table
+INSERT INTO TRANSACTION_MODE VALUES
+(4, 'Gift Card'),
+(5, 'Bank Transfer'),
+(6, 'Cryptocurrency'),
+(7, 'Cash on Delivery'),
+(8, 'Google Pay'),
+(9, 'Apple Pay'),
+(10, 'Venmo'),
+(11, 'Stripe'),
+(12, 'Square'),
+(13, 'Amazon Pay'),
+(14, 'Chase Pay'),
+(15, 'Samsung Pay');
 
-SELECT * FROM TRANSACTIONS;
+-- Inserting data into CUSTOMER_SUPPORT table
+INSERT INTO CUSTOMER_SUPPORT VALUES
+(4, 5, 'Excellent service'),
+(5, 3, 'Satisfactory support'),
+(6, 4, 'Good response'),
+(7, 2, 'Needs improvement'),
+(8, 5, 'Exceptional assistance'),
+(9, 1, 'Outstanding support'),
+(10, 4, 'Impressive help'),
+(11, 3, 'Fair service'),
+(12, 5, 'Highly recommended'),
+(13, 2, 'Average support'),
+(14, 4, 'Responsive team'),
+(15, 5, 'Top-notch service');
+
+-- Inserting data into CART table
+INSERT INTO CART (cartTotal) VALUES (0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0),
+(0);
+
+-- Inserting data into ADD_TO_CART table
+INSERT INTO ADD_TO_CART VALUES
+(4, 4, 1, 2),
+(5, 5, 1, 1),
+(6, 6, 2, 3),
+(7, 7, 2, 1),
+(8, 8, 3, 2),
+(9, 9, 3, 1),
+(10, 10, 4, 2),
+(11, 11, 4, 1),
+(12, 12, 5, 3),
+(13, 13, 5, 1),
+(14, 14, 6, 2),
+(15, 15, 6, 1);
+
+-- Inserting data into RAISE_TICKET table
+INSERT INTO RAISE_TICKET VALUES
+(4, 7),
+(5, 8),
+(6, 9),
+(7, 10),
+(8, 11),
+(9, 12),
+(10, 13),
+(11, 14),
+(12, 15),
+(13, 4),
+(14, 5),
+(15, 6);
+
+-- Inserting data into TICKET_DETAILS table
+INSERT INTO TICKET_DETAILS VALUES
+(4, 'Defective product', 'Technical'),
+(5, 'Late delivery', 'Logistics'),
+(6, 'Missing item', 'Order'),
+(7, 'Poor customer service', 'Service'),
+(8, 'Product refund', 'Financial'),
+(9, 'Damaged package', 'Logistics'),
+(10, 'Billing issue', 'Financial'),
+(11, 'Incorrect product', 'Order'),
+(12, 'Website usability', 'Technical'),
+(13, 'Exchange request', 'Order'),
+(14, 'Quality assurance', 'Product'),
+(15, 'Return process', 'Order');
+
+-- Inserting data into TRANSACTION_FOR_ORDER table
+INSERT INTO TRANSACTION_FOR_ORDER VALUES
+(104, 4),
+(105, 5),
+(106, 6),
+(107, 7),
+(108, 8),
+(109, 9),
+(110, 10),
+(111, 11),
+(112, 12),
+(113, 13),
+(114, 14),
+(115, 15);
+
+-- Inserting data into PAYMENT_FOR_TRANSACTION table
+INSERT INTO PAYMENT_FOR_TRANSACTION VALUES
+(4, 4),
+(5, 5),
+(6, 6),
+(7, 7),
+(8, 8),
+(9, 9),
+(10, 10),
+(11, 11),
+(12, 12),
+(13, 13),
+(14, 14),
+(15, 15);
+
+-- Inserting data into CHECKOUT table
+INSERT INTO CHECKOUT VALUES
+(1, 104),
+(1, 105),
+(2, 106),
+(2, 107),
+(3, 108),
+(3, 109),
+(4, 110),
+(4, 111),
+(5, 112),
+(5, 113),
+(6, 114),
+(6, 115);
