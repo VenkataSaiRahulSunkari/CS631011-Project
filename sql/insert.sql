@@ -23,7 +23,11 @@ INSERT INTO CUSTOMER (customerId, firstName, middleName, lastName, gender, email
 (22, 'Mia', 'Thompson', 'Lopez', 'female', 'mia.lopez@example.com', 'miapass', '1996-01-02', '123 Birch St', 'TX', 'USA', 'Valley Town', '89012'),
 (23, 'Samuel', 'Harris', 'Adams', 'male', 'samuel.adams@example.com', 'samuelpass', '1989-08-19', '234 Pine St', 'CA', 'USA', 'Lakewood', '90123'),
 (24, 'Scarlett', 'Martin', 'Wright', 'female', 'scarlett.wright@example.com', 'scarlettpass', '1991-12-30', '345 Oak St', 'FL', 'USA', 'Sunnydale', '12345'),
-(25, 'David', 'Clark', 'Taylor', 'male', 'david.taylor@example.com', 'davidpass', '1987-05-10', '456 Maple St', 'NY', 'USA', 'Mountain View', '54321');
+(25, 'David', 'Clark', 'Taylor', 'male', 'david.taylor@example.com', 'davidpass', '1987-05-10', '456 Maple St', 'NY', 'USA', 'Mountain View', '54321'),
+(26, 'John', 'Dev', 'Aram', 'male', 'john.aram@gmail.com', 'johnpass', '1940-12-30', '301 Chain O Hills', 'NY', 'USA', 'Mountain View', '07057'),
+(27, 'Mary', 'John', 'Wright', 'female', 'mary.john@example.com', 'marypass', '1945-01-30', '536 Bound Brooke', 'NY', 'USA', 'Mountain View', '08805');
+
+
 
 
 INSERT INTO CUSTOMER_PHONE (customerId, phone) VALUES
@@ -180,6 +184,9 @@ VALUES
 (48.75),
 (37.25),
 (65.99),
+(8.50),
+(37.25),
+(65.99),
 (8.50);
 -- TOCHECK : if 20th cartId was added, check cart table last inserted tuple
 INSERT INTO ADD_TO_CART (customerId, productId, cartId, quantity)
@@ -204,7 +211,12 @@ VALUES
 (17, 9002, 17, 1),
 (18, 10001, 18, 3),
 (19, 10002, 19, 1),
-(20, 11001, 20, 2);
+(20, 11001, 20, 2),
+(2, 1001, 20, 1),
+(11, 1001, 21, 2),
+(3, 9001, 22, 1),
+(12, 9001, 23, 2);
+
 
 INSERT INTO RAISE_TICKET (customerId, custSupId)
 VALUES
