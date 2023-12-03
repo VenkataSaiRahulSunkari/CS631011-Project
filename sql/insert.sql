@@ -23,7 +23,7 @@ INSERT INTO CUSTOMER (customerId, firstName, middleName, lastName, gender, email
 (22, 'Mia', 'Thompson', 'Lopez', 'female', 'mia.lopez@example.com', 'miapass', '1996-01-02', '123 Birch St', 'TX', 'USA', 'Valley Town', '89012'),
 (23, 'Samuel', 'Harris', 'Adams', 'male', 'samuel.adams@example.com', 'samuelpass', '1989-08-19', '234 Pine St', 'CA', 'USA', 'Lakewood', '90123'),
 (24, 'Scarlett', 'Martin', 'Wright', 'female', 'scarlett.wright@example.com', 'scarlettpass', '1991-12-30', '345 Oak St', 'FL', 'USA', 'Sunnydale', '12345'),
-(25, 'David', 'Clark', 'Taylor', 'male', 'david.taylor@example.com', 'davidpass', '1987-05-10', '456 Maple St', 'NY', 'USA', 'Mountain View', '54321'),
+(25, 'David', 'Clark', 'Taylor', 'male', 'david.taylor@example.com', 'davidpass', '1987-05-10', '456 Maple St', 'NY', 'USA', 'Mountain View', '54321');
 
 
 
